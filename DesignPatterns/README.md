@@ -10,7 +10,7 @@ En este proyecto, estudiaremos:
   * [Patrones Creacionales](#item3)
     * [Factory](#Factory)
     * [Abstract Factory](#AbstractFactory)
-    * Builder
+    * [Builder](#Builder)
     * Prototype
     * Singleton
   * Patrones Estructurales
@@ -94,12 +94,23 @@ Su implementación puede encontrarse en la carpeta [Factory](/Factory/).
 <a name="AbstractFactory"></a>
 
 ### Abstract Factory
+Abstract Factory es un patrón de diseño creacional que nos permite producir familias de objetos relacionados sin especificar sus clases concretas.
+
 Su implementación puede encontrarse en la carpeta [AbstractFactory](/AbstractFactory/)
 
-### Builder
+<a name="Builder"></a>
 
+### Builder
+Builder es un patrón de diseño creacional que nos permite construir objetos complejos paso a paso. El patrón nos permite producir distintos tipos y representaciones de un objeto empleando el mismo código de construcción.
+
+Su implementación puede encontrarse en la carpeta [Builder](/Builder/)
+
+<a name="Prototype"></a>
 
 ### Prototype 
+El patrón Prototype es como tener una máquina que puede crear copias exactas de diferentes tipos de objetos sin necesidad de entender cómo se construyen. Imagina que tienes una herramienta mágica que puede duplicar cualquier objeto que se le presente. Esa es la esencia del patrón Prototype aplicado a la gestión de objetos en un sistema.
+
+Su implementación puede encontrarse en la carpeta [Prototype](/Prototype/)
 
 
 ### Singleton
