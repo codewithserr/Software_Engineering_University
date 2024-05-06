@@ -11,8 +11,8 @@ En este proyecto, estudiaremos:
     * [Factory](#Factory)
     * [Abstract Factory](#AbstractFactory)
     * [Builder](#Builder)
-    * Prototype
-    * Singleton
+    * [Prototype](#Prototype)
+    * [Singleton](#Singleton)
   * Patrones Estructurales
     * Adapter
     * Bridge
@@ -112,6 +112,12 @@ El patrón Prototype es como tener una máquina que puede crear copias exactas d
 
 Su implementación puede encontrarse en la carpeta [Prototype](/Prototype/)
 
+<a name="Singleton"></a>
 
 ### Singleton
+
+Singleton es un patrón de diseño creacional que nos permite asegurarnos de que una clase tenga una única instancia, a la vez que proporciona un punto de acceso global a dicha instancia.
+
+Su implementación puede encontrarse en la carpeta [Singleton](/Singleton/)
+
 
